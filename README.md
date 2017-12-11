@@ -1,2 +1,1 @@
-# oliviabot
-Olivia's bot.
+I need to add a CORS proxy to the express server for "embedify" to work.

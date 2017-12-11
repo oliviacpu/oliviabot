@@ -1,0 +1,17 @@
+html
+  head
+    title oliviabot
+    link(rel="stylesheet", href="/styles.css")
+    script(src="https://button.glitch.me/button.js")
+  body   
+    .header
+      .header--content
+        h1 oliviabot
+        h4 talk to me
+      .glitchButton
+    #messages
+      .message
+    form(autocomplete="off").message-entry
+      input#message-entry--input(autocomplete="off" autofocus placeholder="hello world")
+      button.message-entry--button(onclick="oliviabot.submitMessage(event)") send
+  script(src='/bundle.js')
